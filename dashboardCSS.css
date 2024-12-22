@@ -19,13 +19,15 @@ main{
     align-self: center;
     display:grid;
     grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 48.3% 48.3%;
+    grid-template-rows: 48% 48.3%;
     gap:3%;
     row-gap: 8%;
     padding-left: 8%;
     font-family: rubik;
     background-color: hsl(226, 43%, 10%);
     color:white;
+    overflow:hidden;
+    padding-bottom:5%;
 }
 
 section{
@@ -249,6 +251,7 @@ div{
 }
 
 .attribution { 
+    color:white;
     font-size: 11px; 
     text-align: center; 
 }
