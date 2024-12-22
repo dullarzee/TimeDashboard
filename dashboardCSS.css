@@ -117,7 +117,7 @@ div{
 .div2A{
    position:relative;
    background-color: hsl(15, 100%, 70%);
-   z-index: 3;
+   overflow:hidden;
 }
 
 .div2B{
@@ -148,18 +148,23 @@ div{
 
 .div3A{
     background-color: hsl(195, 74%, 62%);
+    overflow:hidden;
 }
 .div4A{
     background-color: hsl(348, 100%, 68%);
+    overflow: hidden;
 }
 .div5A{
     background-color: hsl(145, 58%, 55%);
+    overflow: hidden;
 }
 .div6A{
     background-color: hsl(264, 64%, 52%);
+    overflow: hidden;
 }
 .div7A{
     background-color: hsl(43, 84%, 65%);
+    overflow: hidden;
 }
 .div5B{
     display:grid;
