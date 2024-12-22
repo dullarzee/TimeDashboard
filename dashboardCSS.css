@@ -1,0 +1,380 @@
+
+body{
+    /*border:1px solid red;*/
+    width:85%;
+    min-height:100vh;
+    justify-self: center;
+    align-self: center;
+    padding:5%;
+    padding-top: 8%;
+    background-color: hsl(226, 43%, 10%);
+    z-index: 9;
+}
+
+main{
+    /*border:1px solid black;*/
+    width:80%;
+    height:60vh;
+    justify-self: center;
+    align-self: center;
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 48.3% 48.3%;
+    gap:3%;
+    row-gap: 8%;
+    padding-left: 8%;
+    font-family: rubik;
+    background-color: hsl(226, 43%, 10%);
+    color:white;
+}
+
+section{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h2{
+    margin-top: 10%;
+    font-weight:100;
+    margin-bottom: 25%;
+    padding-left: 10%;
+}
+
+span{
+    
+    font-weight:100;
+    font-size: 2em;
+    
+    
+}
+
+h5{
+    margin:0;
+    margin-bottom: 35%;
+    font-weight: lighter;
+}
+
+h6{
+    opacity:50%; 
+    margin-bottom:-5%;
+    margin-left: 10%;
+    font-weight: 200;
+}
+
+.option{
+   /* margin-left: 65%;*/
+    width:1em;
+    opacity:40%;
+}
+
+.optionexp
+{
+    position:sticky;
+    top:-50%;
+}
+
+div:hover{
+    background-color: hsl(235, 45%, 61%);
+}
+
+.span2{
+    opacity:50%; 
+    font-weight: 200;
+    font-size: 0.7em;
+}
+
+.span1{
+    font-size: 200%;
+    font-weight: 100;
+}
+
+div{
+    /*border:1px solid blue;*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position:relative;
+}
+
+.div1A{
+    grid-row: span 2;
+    background-color: hsl(235, 46%, 20%);
+    height:100%;
+
+
+    
+}
+
+.div1B{
+    padding:10%;
+    padding-left: 0;
+    background-color: hsl(246, 80%, 60%);
+}
+
+.div2A{
+   position:relative;
+   background-color: hsl(15, 100%, 70%);
+   z-index: 3;
+}
+
+.div2B{
+    display:grid;
+    grid-template-areas: 'work . option'
+                         'first . . '
+                         'second . .';
+    position:relative;
+    top:-7%;
+    background-color: hsl(235, 46%, 20%);
+    z-index: 2;
+    padding:10%;
+    
+}
+
+.h5{
+    grid-area:work;
+}
+.option{
+    grid-area: option;
+}
+.span1{
+    grid-area:first;
+}
+.span2{
+    grid-area:second;
+}
+
+.div3A{
+    background-color: hsl(195, 74%, 62%);
+}
+.div4A{
+    background-color: hsl(348, 100%, 68%);
+}
+.div5A{
+    background-color: hsl(145, 58%, 55%);
+}
+.div6A{
+    background-color: hsl(264, 64%, 52%);
+}
+.div7A{
+    background-color: hsl(43, 84%, 65%);
+}
+.div5B{
+    display:grid;
+    grid-template-areas: 'work . option'
+                         'first . . '
+                         'second . .';
+    
+    position:relative;
+    top:-2.5%;
+    background-color: hsl(235, 46%, 20%);
+    z-index: 2;
+    padding:10%;
+}
+
+.div6B{
+    display:grid;
+    grid-template-areas: 'work . option'
+                         'first . . '
+                         'second . .';
+    
+    position:relative;
+    top:-17%;
+    background-color: hsl(235, 46%, 20%);
+    z-index: 2;
+    padding:10%;
+}
+
+.div7B{
+    display:grid;
+    grid-template-areas: 'work . option'
+                         'first . . '
+                         'second . .';
+    
+    position:relative;
+    top:-7%;
+    background-color: hsl(235, 46%, 20%);
+    z-index: 2;
+    padding:10%;
+    
+}
+
+
+.img1{
+    height:3em;
+    margin-left: 10%;
+    border-radius: 50%;
+    border:2px solid white;
+    
+    
+}
+
+.img2{
+    height:3em;
+    margin-left:65%;
+    position:relative;
+    top:-5%;
+    z-index: 1;
+    
+}
+
+.img5{
+    height:2.5em;
+    margin-left:61%;
+    position:relative;
+    top:-3%;
+    
+}
+
+.img6{
+    height:4em;
+    margin-left:61%;
+    position:relative;
+    top:-6%;
+    
+}
+
+.reportfor
+{
+    font-size: 0.7em;  
+    margin-left: 10%; 
+    opacity:70%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width:600px){
+
+    html{
+        min-height: 100vh;
+        width:360px;
+        background-color: white;
+        background-color: hsl(226, 43%, 10%);
+    }
+    
+    body{
+        width:80%;
+        min-height: 100vh;
+
+    }
+    
+    main
+    {
+        grid-template-rows: auto auto auto auto auto auto auto;
+        grid-template-columns: auto;
+        height:auto;
+        gap:2.5%;
+    }
+
+    h2{
+        margin-top: 10%;
+        font-weight:100;
+        margin-bottom: 0;
+        padding-left: 10%;
+        font-size: 1em;
+    }
+
+    
+    .div1B{
+        display:flex;
+        grid-column: span 3;
+        flex-wrap: wrap;
+        grid-template-rows: auto ;
+        column-gap: 0;
+
+    }
+    .reportfor{
+        position:relative;
+        left:-5%;
+        margin-top: 5%;
+    }
+    .jeremy{
+        
+        margin-left: 30%;
+        margin-top: -13%;
+        
+    }
+
+    .section1A{
+        display:grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        justify-items: center;
+        padding-bottom: 4%;
+
+    }
+
+    .span1{
+        font-size: 110%;
+        font-weight: 100;
+    }
+    
+    h5{
+        margin:0;
+        margin-bottom: 3%;
+        font-weight: lighter;
+    }
+    .div2B{
+        position:relative;
+        top:0%;
+        
+        
+    }
+
+   /* .h5{
+        grid-area:h5;
+    }
+    .span1{
+        grid-area:span1;
+    }
+
+    .span2{
+        grid-area: span2;
+    }*/
+
+    .div5B{
+        position:relative;
+        top:5%;
+        background-color: hsl(235, 46%, 20%);
+        
+    }
+
+    .div6B{
+        position:relative;
+        top:0%;
+    }
+
+    .div7B{
+        position:relative;
+        top:0%;
+    }
+        
+    
+    
+    
+}
+
+
+@media only screen and (min-width:600px) and (max-width:1100px){
+   html{
+    width:95vw;
+   }
+    body
+    {
+        width:98%;
+    }
+    main{
+        width:100%;
+    }
+}
+/*if i eventually decide to support tablets...theres a very simple way to go about it...
+ill simply increase the width of the body*/
